@@ -1,0 +1,29 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:400,700,900,300);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700,600,300,800);
+@import "portal.scss";
+
+html, button, input, select, textarea,
+.pure-g [class *= "pure-u"] {
+  font-family: 'Open Sans', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Lato', sans-serif;
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+}
+
+a {
+  color: #000;
+}
+
+a:hover {
+  color: #000;
+}
+
+::selection {
+  color: #fff;
+  background-color: #4E2E9E;
+}
